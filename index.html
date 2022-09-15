@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt"> <!--Chamada de tag raiz (<html...)-->
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ProjectCorintio</title>
+
+        <link rel="stylesheet" href="./styles.css">
+
+    </head>
+    <body>
+
+        
+         <header> 
+            <div>
+                <img src="https://github.com/FariassArthur.png" alt="Foto do usuario"> 
+            </div> 
+        </header>
+
+        <main>       
+            <section>
+                <div> <!--quando a tag não possuir um significado especifico posso chamar de div pois ela agrupa outras tags-->
+                    <h2>
+                        Meus jogos
+                    </h2>
+
+                    <p>
+                        Games que eu mais curto jogar
+                    </p>
+                    
+                    <ul class="Games-list"> <!--Basicamente representa uma lista desordenada mas que possui um marcador-->
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="Imagem de GTA5">
+                            </a>
+                        </li> <!--O target mostra como o link vai se comportar no navegador, blank significa abrir uma nova aba-->
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://www.twitch.tv/directory/game/VALORANT">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg" alt="Imagem de Valorant">
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://www.twitch.tv/directory/game/Cult%20of%20the%20Lamb">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/516173984_IGDB-188x250.jpg" alt="Imagem de Cult of the Lamb">
+                            </a>
+                        </li> <!--Motivo=ser um item da lista-->
+                    </ul><!--Motivo=Ter uma lista-->
+
+ <!--para as imagens poderia só largar as imagens assim como está em cima, mas para ficar mais fácil posso fazer uma lista (<li>)-->
+                </div> <!--agrupa para estilizar-->
+            </section> <!--diz que possui uma seção de jogos-->
+
+            <section>
+                <div> <!--quando a tag não possuir um significado especifico posso chamar de div pois ela agrupa outras tags-->
+                    <h2>
+                        Canais e streamers
+                    </h2>
+
+                    <p>
+                        Lista de canais e transmissões que não perco!
+                    </p>
+                    
+                    <ul class="channel-list"> <!--Basicamente representa uma lista desordenada mas que possui um marcador-->
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://www.twitch.tv/leety">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/13e4b773-af7b-49b6-b016-fd0786e13288-profile_image-150x150.png" alt="Imagem do canal do Leet">
+                            </a>
+                        </li> <!--O target mostra como o link vai se comportar no navegador, blank significa abrir uma nova aba-->
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://www.twitch.tv/zerobadass">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/da4d03df-73d9-42f4-8b84-cd986cb93014-profile_image-150x150.png" alt="Imagem de Canal do ZeROBADASS">
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://www.twitch.tv/alanzoka">
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/15cec952-c1ba-4ff8-a79c-53c2fa5bd269-profile_image-150x150.png" alt="Imagem do canal do Alanzoka (top one)">
+                            </a>
+                        </li> <!--Motivo=ser um item da lista-->
+                    </ul><!--Motivo=Ter uma lista-->
+
+ <!--para as imagens poderia só largar as imagens assim como está em cima, mas para ficar mais fácil posso fazer uma lista (<li>)-->
+                </div> <!--agrupa para estilizar-->
+            </section>
+
+            <section>
+                <div> <!--quando a tag não possuir um significado especifico posso chamar de div pois ela agrupa outras tags-->
+                    <h2>
+                        Minhas Redes
+                    </h2>
+
+                    <p>
+                        Se conecte comigo
+                    </p>
+                    
+                    <ul class="social-list"> <!--Basicamente representa uma lista desordenada mas que possui um marcador-->
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://github.com/FariassArthur">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.3333 26.673C5.66667 28.8038 5.66667 23.1217 3 22.4114M21.6667 30.9346V25.4371C21.7167 24.7598 21.6308 24.0788 21.4147 23.4396C21.1986 22.8003 20.8572 22.2174 20.4133 21.7296C24.6 21.2324 29 19.5419 29 11.7859C28.9997 9.80254 28.2836 7.8953 27 6.45886C27.6078 4.72369 27.5648 2.80575 26.88 1.10346C26.88 1.10346 25.3067 0.606274 21.6667 3.20585C18.6107 2.32344 15.3893 2.32344 12.3333 3.20585C8.69333 0.606274 7.12 1.10346 7.12 1.10346C6.43517 2.80575 6.39219 4.72369 7 6.45886C5.70684 7.90595 4.99003 9.83044 5 11.8285C5 19.5277 9.4 21.2182 13.5867 21.7722C13.148 22.2551 12.8097 22.8311 12.5937 23.4625C12.3778 24.0939 12.2891 24.7668 12.3333 25.4371V30.9346" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    
+                                    
+                            </a>
+                        </li> <!--O target mostra como o link vai se comportar no navegador, blank significa abrir uma nova aba-->
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://twitter.com/@Farias_Arthur_">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 11C16 8.25003 18.3125 5.96253 21.0625 6.00003C22.0256 6.01115 22.9649 6.30018 23.7676 6.83237C24.5704 7.36457 25.2023 8.11728 25.5875 9.00003H30L25.9625 13.0375C25.7019 17.0932 23.9066 20.8975 20.9415 23.6769C17.9764 26.4562 14.0641 28.002 10 28C6 28 5 26.5 5 26.5C5 26.5 9 25 11 22C11 22 3 18 5 7.00003C5 7.00003 10 12 16 13V11Z" stroke="#2871FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                target="_blank"  
+                                href="https://www.instagram.com/pedroo_arthur_">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="#FA41FE" stroke-width="2" stroke-miterlimit="10"/>
+                                        <path d="M21.5 4.5H10.5C7.18629 4.5 4.5 7.18629 4.5 10.5V21.5C4.5 24.8137 7.18629 27.5 10.5 27.5H21.5C24.8137 27.5 27.5 24.8137 27.5 21.5V10.5C27.5 7.18629 24.8137 4.5 21.5 4.5Z" stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z" fill="#FA41FE"/>
+                                    </svg>
+                                     
+                            </a>
+                        </li> <!--Motivo=ser um item da lista-->
+                    </ul><!--Motivo=Ter uma lista-->
+
+ <!--para as imagens poderia só largar as imagens assim como está em cima, mas para ficar mais fácil posso fazer uma lista (<li>)-->
+                </div> <!--agrupa para estilizar-->
+            </section>
+        </main> <!--Tag que significa o que há de principal na página-->
+        
+    </body>
+</html>
